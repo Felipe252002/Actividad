@@ -1,0 +1,115 @@
+/*Quitar enumeracion o margenes de las letras*/
+*{
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+}
+
+
+/*Color, tamaño y fuente de letras*/
+#menu ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: 25px sans-serif;
+    display: block;
+    padding-top: 3%;
+    padding-left: 15%;
+}
+/*Color de fondo menu*/
+#menu ul li{
+    background-color: rgb(66, 66, 66);
+    width: 218px;
+    height: 35px;
+    /*border: 1px solid;*/
+    border-color: black;
+}
+
+/*Hover color gris*/
+#menu ul li a:hover {
+    color: rgb(150, 150, 150);
+}
+
+/*#fondo{
+    background-color: rgb(66, 66, 66);
+}*/
+
+/*Color fondo lorem*/
+#t1{
+    position: relative;
+    left: 220px;
+    bottom: 173px;
+    background-color: rgb(0, 255, 234);
+    width: 83vw;
+    height: 13vw;
+}
+#t2{
+    position: relative;
+    left: 220px;
+    bottom: 173px;
+    background-color: rgb(207, 211, 7);
+    width: 83vw;
+    height: 13vw;
+}
+#t3{
+    position: relative;
+    left: 220px;
+    bottom: 173px;
+    background-color: rgb(255, 102, 0);
+    width: 83vw;
+    height: 13vw;
+}
+#t4{
+    position: relative;
+    left: 220px;
+    bottom: 173px;
+    background-color: rgb(255, 0, 0);
+    width: 83vw;
+    height: 13vw;
+}
+
+/*texto color letras*/
+#l1, #l2{
+    position: relative;
+    left: 270px;
+    top: 60px;
+    width: 50vw;
+    color: white;
+    text-align: left;
+    font: 18px sans-serif;
+}
+
+#l1{
+    font:bold 23px sans-serif;
+}
+/*#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: sans-serif;
+}
+#menu ul li {
+    background-color: rgb(66, 66, 66);
+    width: 100%;
+    max-width: 273px;
+    height: 100vh;
+}
+#menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 10px;
+}*\
+
+#menu ul li a:hover {
+    color: #fff;
+}
+
+
+
+#menu{
+    height: max-content;
+    padding-left: 20 px;
+    margin: auto;
+}
